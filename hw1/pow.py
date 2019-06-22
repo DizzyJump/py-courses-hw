@@ -1,0 +1,5 @@
+input_str = input('Please input two floats delimited by space: ').strip()
+space_index = input_str.find(' ')
+first_number = float(input_str[:space_index])
+second_number = float(input_str[space_index+1:])
+print(first_number ** second_number)

@@ -1,0 +1,5 @@
+input_str = input('Please input float: ').strip()
+number = float(input_str)
+floor = int(number)
+rounded = floor + int((number-floor)>=0.5)
+print(rounded)
